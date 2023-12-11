@@ -1,0 +1,12 @@
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\ControrDeEmpleados.exe.config
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\ControrDeEmpleados.exe
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\ControrDeEmpleados.pdb
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.AssemblyReference.cache
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.Form1.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.PL.frmDepartamento.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.PL.frmEmpleados.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.Properties.Resources.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.GenerateResource.cache
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.CoreCompileInputs.cache
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.exe
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.pdb
