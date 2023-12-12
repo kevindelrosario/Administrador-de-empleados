@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControrDeEmpleados.BDD; // Agregamos archivos de la carpeta BDD
 
 namespace ControrDeEmpleados.PL
 {
@@ -26,8 +27,11 @@ namespace ControrDeEmpleados.PL
         private void btAgregar_Click(object sender, EventArgs e)
         {
             //Instruccion GUI
-
+            recuperarInformacion();
         
+            conexionBDD conexion = new conexionBDD();
+            MessageBox.Show("conectado .." + conexion.conectar());
+
         }
 
         private void recuperarInformacion()
@@ -38,8 +42,10 @@ namespace ControrDeEmpleados.PL
             oDepartamento.ID = ID;
             oDepartamento.Departamento = txtNombreDep.Text;
 
-           // MessageBox.Show(oDepartamento.ID.ToString);
-           // MessageBox.Show(oDepartamento.Departamento.ToString);
+            //obteniendo los datos funciona
+
+           // MessageBox.Show(oDepartamento.ID.ToString());
+            //MessageBox.Show(oDepartamento.Departamento.ToString());
 
 
         }
