@@ -30,7 +30,7 @@ namespace ControrDeEmpleados.PL
             recuperarInformacion();
         
             conexionBDD conexion = new conexionBDD();
-            MessageBox.Show("conectado .." + conexion.conectarPrueba());
+            MessageBox.Show("conectado .." + conexion.ejecutarComandoSinRetorno(" "));//aqui entra la sentencia sql con la que actua la funcion
 
         }
 

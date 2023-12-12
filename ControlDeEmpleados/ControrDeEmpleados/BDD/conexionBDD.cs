@@ -27,14 +27,16 @@ namespace ControrDeEmpleados.BDD
 
 
 
-        /**  metodo: INSERT, DELETE, UPDATE  **/
-        public bool conectarPrueba()
+        /************metodo: INSERT, DELETE, UPDATE*****************************/
+        public bool ejecutarComandoSinRetorno(string strComando)
         {
             try
             {
                     MySqlCommand comando = new MySqlCommand();
-                     //comando.CommandText = "SELECT * FROM empleado";
-                    comando.CommandText = $"INSERT INTO Departamento(departamento) VALUES('ciencias')";
+                //comando.CommandText = "SELECT * FROM empleado";  muestra
+                 //comando.CommandText = $"INSERT INTO Departamento(departamento) VALUES('ciencias')"; agrega
+
+                    comando.CommandText = strComando;
                     comando.Connection = this.estableceConexion();
                     Conexion.Open();
                     comando.ExecuteNonQuery();
@@ -48,7 +50,7 @@ namespace ControrDeEmpleados.BDD
           
     }
 
-          
+          /***********************SELECT (retorna datos)********************************/
         
 
 
