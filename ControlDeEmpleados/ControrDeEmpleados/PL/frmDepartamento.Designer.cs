@@ -43,86 +43,85 @@
             // grilla
             // 
             this.grilla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grilla.Location = new System.Drawing.Point(36, 140);
-            this.grilla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grilla.Location = new System.Drawing.Point(48, 172);
+            this.grilla.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.grilla.Name = "grilla";
             this.grilla.RowHeadersWidth = 51;
             this.grilla.RowTemplate.Height = 24;
-            this.grilla.Size = new System.Drawing.Size(452, 288);
+            this.grilla.Size = new System.Drawing.Size(603, 354);
             this.grilla.TabIndex = 0;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(36, 58);
-            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtID.Location = new System.Drawing.Point(48, 71);
+            this.txtID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(122, 20);
+            this.txtID.Size = new System.Drawing.Size(161, 22);
             this.txtID.TabIndex = 1;
             // 
             // txtNombreDep
             // 
-            this.txtNombreDep.Location = new System.Drawing.Point(216, 58);
-            this.txtNombreDep.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreDep.Location = new System.Drawing.Point(288, 71);
+            this.txtNombreDep.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNombreDep.Name = "txtNombreDep";
-            this.txtNombreDep.Size = new System.Drawing.Size(272, 20);
+            this.txtNombreDep.Size = new System.Drawing.Size(361, 22);
             this.txtNombreDep.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(49, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 13);
+            this.label1.Size = new System.Drawing.Size(23, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "ID:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(214, 30);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(285, 37);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 13);
+            this.label2.Size = new System.Drawing.Size(170, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nombre del Departamento:";
             // 
             // btAgregar
             // 
-            this.btAgregar.Location = new System.Drawing.Point(36, 96);
-            this.btAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btAgregar.Location = new System.Drawing.Point(48, 118);
+            this.btAgregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btAgregar.Name = "btAgregar";
-            this.btAgregar.Size = new System.Drawing.Size(85, 22);
+            this.btAgregar.Size = new System.Drawing.Size(113, 27);
             this.btAgregar.TabIndex = 5;
             this.btAgregar.Text = "Agregar:";
             this.btAgregar.UseVisualStyleBackColor = true;
+            this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
             // btModificar
             // 
-            this.btModificar.Location = new System.Drawing.Point(162, 96);
-            this.btModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btModificar.Location = new System.Drawing.Point(216, 118);
+            this.btModificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btModificar.Name = "btModificar";
-            this.btModificar.Size = new System.Drawing.Size(85, 22);
+            this.btModificar.Size = new System.Drawing.Size(113, 27);
             this.btModificar.TabIndex = 6;
             this.btModificar.Text = "Modificar:";
             this.btModificar.UseVisualStyleBackColor = true;
             // 
             // btBorrar
             // 
-            this.btBorrar.Location = new System.Drawing.Point(283, 96);
-            this.btBorrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btBorrar.Location = new System.Drawing.Point(377, 118);
+            this.btBorrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btBorrar.Name = "btBorrar";
-            this.btBorrar.Size = new System.Drawing.Size(85, 22);
+            this.btBorrar.Size = new System.Drawing.Size(113, 27);
             this.btBorrar.TabIndex = 7;
             this.btBorrar.Text = "Borrar:";
             this.btBorrar.UseVisualStyleBackColor = true;
             // 
             // btCancelar
             // 
-            this.btCancelar.Location = new System.Drawing.Point(403, 96);
-            this.btCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btCancelar.Location = new System.Drawing.Point(537, 118);
+            this.btCancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(85, 22);
+            this.btCancelar.Size = new System.Drawing.Size(113, 27);
             this.btCancelar.TabIndex = 8;
             this.btCancelar.Text = "Cancelar:";
             this.btCancelar.UseVisualStyleBackColor = true;
@@ -130,9 +129,9 @@
             // 
             // frmDepartamento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(526, 448);
+            this.ClientSize = new System.Drawing.Size(701, 551);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.btBorrar);
             this.Controls.Add(this.btModificar);
@@ -142,7 +141,7 @@
             this.Controls.Add(this.txtNombreDep);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.grilla);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmDepartamento";
             this.Text = "frmDepartamento";
             ((System.ComponentModel.ISupportInitialize)(this.grilla)).EndInit();
