@@ -13,16 +13,30 @@ namespace ControrDeEmpleados.BDD
     class conexionBDD
     {
 
+        private string cadenaConexion = "Server=localhost;Database=dbSistema;Uid=kevin;password=1234";
+        MySqlConnection Conexion;
+
+        /// <summary>
+        /// Crea una coneccion
+        /// </summary>
+        /// <returns>Valor MySqlConenction con los valores de la coneccion</returns>
+        public  MySqlConnection estableceConexion()
+        {
+            this.Conexion = new MySqlConnection(this.cadenaConexion);
+            return this.Conexion;
+        }
+
+
         public bool conectar()
         {
             try
             {
-                string conString = "Server=localhost; Database=dbSistema; User=kevin; Password=1234;";
+                string conString = "Server=localhost;Database=dbSistema;Uid=kevin;password=1234";
                 
                 SqlConnection Conexion = new SqlConnection(conString);
                 SqlCommand Comando = new SqlCommand();
 
-                Comando.CommandText = "SELECT * FROM Empleado"; //sentencia sql
+                Comando.CommandText = "SELECT * FROM empleado"; //sentencia sql
                 Comando.Connection = Conexion; //tomamos la coneccion
                 Conexion.Open();
                 Comando.ExecuteNonQuery();//ejecuta la sentencia
@@ -37,14 +51,22 @@ namespace ControrDeEmpleados.BDD
 
         public bool conectarPrueba()
         {
+            try
+            {
+                    MySqlCommand comando = new MySqlCommand();
+                     //comando.CommandText = "SELECT * FROM empleado";
+                    comando.CommandText = $"INSERT INTO Departamento(departamento) VALUES('ciencias')";
+                    comando.Connection = this.estableceConexion();
+                    Conexion.Open();
+                    comando.ExecuteNonQuery();
+                    Conexion.Close();
+                   return true;
 
-
-            string conString = "server=localhost; database=dbSistema; user=kevin; password=1234;";
-               // public MySqlConnection conectar = new MySqlConnection();
-
-                 MySqlDataAdapter adaptador = new MySqlDataAdapter();
-
-            return true;
+            }catch(Exception ex)
+            {
+                return false;
+            }
+          
     }
 
           

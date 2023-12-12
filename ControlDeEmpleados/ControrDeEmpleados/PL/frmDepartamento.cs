@@ -30,7 +30,7 @@ namespace ControrDeEmpleados.PL
             recuperarInformacion();
         
             conexionBDD conexion = new conexionBDD();
-            MessageBox.Show("conectado .." + conexion.conectar());
+            MessageBox.Show("conectado .." + conexion.conectarPrueba());
 
         }
 
