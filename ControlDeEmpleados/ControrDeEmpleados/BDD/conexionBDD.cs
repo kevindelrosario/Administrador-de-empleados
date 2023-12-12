@@ -16,10 +16,9 @@ namespace ControrDeEmpleados.BDD
         private string cadenaConexion = "Server=localhost;Database=dbSistema;Uid=kevin;password=1234";
         MySqlConnection Conexion;
 
-        /// <summary>
-        /// Crea una coneccion
-        /// </summary>
-        /// <returns>Valor MySqlConenction con los valores de la coneccion</returns>
+      
+
+        /**CREA LA CONECCION**/
         public  MySqlConnection estableceConexion()
         {
             this.Conexion = new MySqlConnection(this.cadenaConexion);
@@ -27,28 +26,8 @@ namespace ControrDeEmpleados.BDD
         }
 
 
-        public bool conectar()
-        {
-            try
-            {
-                string conString = "Server=localhost;Database=dbSistema;Uid=kevin;password=1234";
-                
-                SqlConnection Conexion = new SqlConnection(conString);
-                SqlCommand Comando = new SqlCommand();
 
-                Comando.CommandText = "SELECT * FROM empleado"; //sentencia sql
-                Comando.Connection = Conexion; //tomamos la coneccion
-                Conexion.Open();
-                Comando.ExecuteNonQuery();//ejecuta la sentencia
-                Conexion.Close();
-
-                return true;
-            } catch (Exception ex)
-            {
-                return false;
-            }
-        }
-
+        /**  metodo: INSERT, DELETE, UPDATE  **/
         public bool conectarPrueba()
         {
             try
