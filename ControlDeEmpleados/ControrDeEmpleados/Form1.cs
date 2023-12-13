@@ -7,14 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ControlDeEmpleados.PL;
 
-namespace ControrDeEmpleados
+namespace ControlDeEmpleados
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btDepartamento_Click(object sender, EventArgs e)
+        {
+            frmDepartamento formDeparta = new frmDepartamento();
+            formDeparta.Show();
+        }
+
+        private void btEmpleado_Click(object sender, EventArgs e)
+        {
+            frmEmpleados formEmpleado = new frmEmpleados();
+            formEmpleado.Show();
         }
     }
 }

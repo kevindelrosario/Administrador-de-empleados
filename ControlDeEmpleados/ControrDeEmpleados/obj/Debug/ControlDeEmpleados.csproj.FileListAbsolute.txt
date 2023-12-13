@@ -2,9 +2,6 @@ C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\C
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\ControrDeEmpleados.exe
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\ControrDeEmpleados.pdb
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.AssemblyReference.cache
-C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.Form1.resources
-C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.PL.frmDepartamento.resources
-C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.PL.frmEmpleados.resources
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControrDeEmpleados.Properties.Resources.resources
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.GenerateResource.cache
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.CoreCompileInputs.cache
@@ -42,3 +39,6 @@ C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\C
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.csproj.CopyComplete
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.Form1.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.PL.frmDepartamento.resources
+C:\Personal KEVIN\TRABAJOS DE CLASE PARA PORTAFOLIO\Administrador-de-empleados\ControlDeEmpleados\ControrDeEmpleados\obj\Debug\ControlDeEmpleados.PL.frmEmpleados.resources

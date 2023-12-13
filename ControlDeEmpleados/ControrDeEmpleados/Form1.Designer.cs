@@ -1,4 +1,4 @@
-﻿namespace ControrDeEmpleados
+﻿namespace ControlDeEmpleados
 {
     partial class Form1
     {
@@ -28,33 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btDepartamento = new System.Windows.Forms.Button();
             this.btEmpleado = new System.Windows.Forms.Button();
+            this.btDepartamento = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btDepartamento
-            // 
-            this.btDepartamento.Location = new System.Drawing.Point(148, 135);
-            this.btDepartamento.Name = "btDepartamento";
-            this.btDepartamento.Size = new System.Drawing.Size(212, 134);
-            this.btDepartamento.TabIndex = 0;
-            this.btDepartamento.Text = "Departamento";
-            this.btDepartamento.UseVisualStyleBackColor = true;
             // 
             // btEmpleado
             // 
-            this.btEmpleado.Location = new System.Drawing.Point(399, 135);
+            this.btEmpleado.Image = global::ControrDeEmpleados.Properties.Resources.empleadosPrueba;
+            this.btEmpleado.Location = new System.Drawing.Point(340, 70);
             this.btEmpleado.Name = "btEmpleado";
-            this.btEmpleado.Size = new System.Drawing.Size(212, 134);
+            this.btEmpleado.Size = new System.Drawing.Size(271, 162);
             this.btEmpleado.TabIndex = 1;
             this.btEmpleado.Text = "Empleados";
+            this.btEmpleado.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btEmpleado.UseVisualStyleBackColor = true;
+            this.btEmpleado.Click += new System.EventHandler(this.btEmpleado_Click);
+            // 
+            // btDepartamento
+            // 
+            this.btDepartamento.Image = global::ControrDeEmpleados.Properties.Resources.departamentos;
+            this.btDepartamento.Location = new System.Drawing.Point(24, 70);
+            this.btDepartamento.Name = "btDepartamento";
+            this.btDepartamento.Size = new System.Drawing.Size(291, 162);
+            this.btDepartamento.TabIndex = 0;
+            this.btDepartamento.Text = "Departamentos";
+            this.btDepartamento.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btDepartamento.UseVisualStyleBackColor = true;
+            this.btDepartamento.Click += new System.EventHandler(this.btDepartamento_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.ClientSize = new System.Drawing.Size(641, 316);
             this.Controls.Add(this.btEmpleado);
             this.Controls.Add(this.btDepartamento);
             this.Name = "Form1";

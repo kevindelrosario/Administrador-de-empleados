@@ -99,6 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\conexionBDD.cs" />
+    <Compile Include="BDD\DepartamentoBDD.cs" />
     <Compile Include="BLL\DepartamentoBLL.cs" />
     <Compile Include="BLL\EmpleadosBLL.cs" />
     <Compile Include="Form1.cs">
@@ -138,6 +139,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -153,6 +155,50 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ajustes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refrescar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\identificar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleadosPrueba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\departamentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addPersona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editarPersona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\examinar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

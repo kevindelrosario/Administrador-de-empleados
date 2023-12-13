@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ControrDeEmpleados.Properties
+namespace ControlDeEmpleados.Properties
 {
 
 
