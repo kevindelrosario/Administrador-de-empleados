@@ -9,6 +9,7 @@ namespace ControlDeEmpleados.BLL
      class EmpleadosBLL
     {
         public int ID {  get; set; }
+        public int Departamento { get; set; }
         public string nombreEmpleado { get; set; }
         public string primerApellido { get; set; }
         public string segundoApellido { get; set; }

@@ -27,6 +27,28 @@ namespace ControlDeEmpleados.BDD
 
 
 
+
+        /*********PRUEBA***********/
+        public bool PruebaConectar()
+        {
+            try
+            {
+                MySqlConnection conexion = new MySqlConnection("Server=localhost;Database=dbSistema;Uid=kevin;password=1234");
+                MySqlCommand comando = new MySqlCommand();
+
+                comando.CommandText = "SELECT * FROM empleado";
+                comando.Connection = conexion;
+                conexion.Open();
+                comando.ExecuteNonQuery();
+                conexion.Close();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         /************metodo: INSERT, DELETE, UPDATE*****************************/
         public bool ejecutarComandoSinRetorno(string strComando)
         {

@@ -39,13 +39,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.btCancelar = new System.Windows.Forms.Button();
             this.btBorrar = new System.Windows.Forms.Button();
             this.btModificar = new System.Windows.Forms.Button();
             this.btAgregar = new System.Windows.Forms.Button();
             this.btExaminar = new System.Windows.Forms.Button();
             this.picFoto = new System.Windows.Forms.PictureBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.labelid = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.grilla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picFoto)).BeginInit();
             this.SuspendLayout();
@@ -93,6 +94,8 @@
             // 
             // grilla
             // 
+            this.grilla.AllowUserToAddRows = false;
+            this.grilla.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.grilla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.grilla.Location = new System.Drawing.Point(35, 395);
             this.grilla.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -101,6 +104,7 @@
             this.grilla.RowTemplate.Height = 24;
             this.grilla.Size = new System.Drawing.Size(867, 313);
             this.grilla.TabIndex = 12;
+            this.grilla.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.Seleccionar);
             // 
             // label2
             // 
@@ -147,15 +151,6 @@
             this.label6.TabIndex = 18;
             this.label6.Text = "Nombre:";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(741, 60);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(23, 16);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "ID:";
-            // 
             // btCancelar
             // 
             this.btCancelar.Image = global::ControrDeEmpleados.Properties.Resources.cancelar2;
@@ -167,6 +162,7 @@
             this.btCancelar.Text = "Cancelar";
             this.btCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btCancelar.UseVisualStyleBackColor = true;
+            this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btBorrar
             // 
@@ -179,6 +175,7 @@
             this.btBorrar.Text = "Borrar";
             this.btBorrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btBorrar.UseVisualStyleBackColor = true;
+            this.btBorrar.Click += new System.EventHandler(this.btBorrar_Click);
             // 
             // btModificar
             // 
@@ -191,6 +188,7 @@
             this.btModificar.Text = "Modificar";
             this.btModificar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btModificar.UseVisualStyleBackColor = true;
+            this.btModificar.Click += new System.EventHandler(this.btModificar_Click);
             // 
             // btAgregar
             // 
@@ -203,6 +201,7 @@
             this.btAgregar.Text = "Agregar";
             this.btAgregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btAgregar.UseVisualStyleBackColor = true;
+            this.btAgregar.Click += new System.EventHandler(this.btAgregar_Click);
             // 
             // btExaminar
             // 
@@ -227,13 +226,30 @@
             this.picFoto.TabIndex = 0;
             this.picFoto.TabStop = false;
             // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(802, 57);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 22);
+            this.txtId.TabIndex = 19;
+            // 
+            // labelid
+            // 
+            this.labelid.AutoSize = true;
+            this.labelid.Location = new System.Drawing.Point(799, 39);
+            this.labelid.Name = "labelid";
+            this.labelid.Size = new System.Drawing.Size(20, 16);
+            this.labelid.TabIndex = 20;
+            this.labelid.Text = "ID";
+            // 
             // frmEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(938, 719);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelid);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -281,6 +297,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtId;
+        private System.Windows.Forms.Label labelid;
     }
 }
